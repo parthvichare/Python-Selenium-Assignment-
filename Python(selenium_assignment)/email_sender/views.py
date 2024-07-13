@@ -30,10 +30,9 @@ def send_email(request):
     'Best regards,\n'
     'Parth Vichare'
      )
-    recipient_list = ['tech@themedius.ai']  # Replace with your recipient
+    recipient_list = ['tech@themedius.ai']  
     cc_list = ['hr@themedius.ai']  # CC email
-    # recipient_list=['parthvichare8@gmail.com']
-    # cc_list=['parthuvichare9@gmail.com']
+
     email = EmailMessage(
         subject,
         body,
